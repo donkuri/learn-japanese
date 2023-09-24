@@ -1043,59 +1043,59 @@
     <figcaption>The exSTATic tracker page</figcaption></p>
 </figure>
 <h5 id="sharex">ShareX</h5>
-<p>Finally, we need to get a tool to extract the picture and (if any) the audio of the sentence you're mining from. This tool is <a href="https://getsharex.com/">ShareX</a>. First, start by <a href="https://mega.nz/file/UnUjUDzC#zlF_iuIdELDq4-rk4o20EYa4Be3qdc3y5Caay9Eumbg">importing my settings</a>. To do this, go in Application Settings on the left (notice the theme might be different).</p>
+<p>Finally, we need to get a tool to extract the picture and (if any) the audio of the sentence you're mining from. This tool is <a href="https://getsharex.com/">ShareX</a>. First, start by <a href="https://mega.nz/file/UnUjUDzC#zlF_iuIdELDq4-rk4o20EYa4Be3qdc3y5Caay9Eumbg">importing my settings</a>. To do this, go in Application Settings on the left (notice the theme might be different):</p>
 <figure>
 <p><a class="glightbox" href="../img/application_settings.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="AppSettings" src="../img/application_settings.jpg" /></a></p>
 </figure>
-<p>After this is done, go into Settings and then Import... and use my settings file.</p>
+<p>After this is done, go into Settings and then Import... and use my settings file:</p>
 <figure>
 <p><a class="glightbox" href="../img/importing.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Importing" src="../img/importing.jpg" /></a>
     <figcaption>Importing my ShareX settings</figcaption></p>
 </figure>
-<p>After this is done, if you go back to the main menu you should be greeted with the following.</p>
+<p>After this is done, if you go back to the main menu you should be greeted with the following:</p>
 <figure>
 <p><a class="glightbox" href="../img/ShareX.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="ShareX" src="../img/ShareX.jpg" /></a>
     <figcaption>The ShareX homepage</figcaption></p>
 </figure>
-<p>If you want a different theme (I use the Dark theme for instance), you can go into Application Settings and then Theme.</p>
+<p>If you want a different theme (I use the Dark theme for instance), you can go into Application Settings and then Theme:</p>
 <figure>
 <p><a class="glightbox" href="../img/theme.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Theme" src="../img/theme.jpg" /></a>
     <figcaption>Changing the theme in ShareX</figcaption></p>
 </figure>
-<p>Now, let's go back to the left and click on Hotkey settings. This brings up the following menu.</p>
+<p>Now, let's go back to the left and click on Hotkey settings. This brings up the following menu:</p>
 <figure>
 <p><a class="glightbox" href="../img/hotkeys.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="hotkeys" src="../img/hotkeys.jpg" /></a>
     <figcaption>The hotkey settings menu</figcaption></p>
 </figure>
 <p>This has four options. The first one is Audio (Anki), which lets us record some audio and have it be sent directly to the collection.media folder. This means that if you mine a card and you record some audio right afterwards, it'll send what you recorded in the audio field of the mining deck. This is useful if you want to record a voiced line in your visual novel for instance. The second option is for a snipping screenshot which is useful when reading manga. The last two options are what we want for visual novels. The third option captures the picture from the visual novel and puts it in the field of the new card. The fourth option does the same, but also blurs the picture, provided you are using my Yomichan settings.</p>
-<p>Sadly, if you try to record audio or take a screenshot right now, it will fail for two reasons.</p>
+<p>Sadly, if you try to record audio or take a screenshot right now, it will fail for two reasons:</p>
 <ol>
 <li>The collection.media folder is not the same for you and me.</li>
 <li>We have no tool to record audio.</li>
 </ol>
-<p>Let us start with the first issue. Start by clicking on the wheel next to each option of the options above: Audio, screenshot, etc. This opens up the following menu.</p>
+<p>Let us start with the first issue. Start by clicking on the wheel next to each option of the options above: Audio, screenshot, etc. This opens up the following menu:</p>
 <figure>
 <p><a class="glightbox" href="../img/media-folder.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Media folder" src="../img/media-folder.jpg" /></a>
     <figcaption>Changing the media folder path</figcaption></p>
 </figure>
-<p>Notice the blurred parts in the bottom (it shouldn't be blurred on your end). This is my collection.media folder path. You need to change it to yours. The first part is your Windows username, the second is your Anki profile name. You can also type %appdata% in the Windows search bar, press Enter and find your collection.media folder path directly that way. Either way, rewrite the path for each of the four options. It should look like this.</p>
+<p>Notice the blurred parts in the bottom (it shouldn't be blurred on your end). This is my collection.media folder path. You need to change it to yours. The first part is your Windows username, the second is your Anki profile name. You can also type %appdata% in the Windows search bar, press Enter and find your collection.media folder path directly that way. Either way, rewrite the path for each of the four options. It should look like this:</p>
 <figure>
 <p><a class="glightbox" href="../img/path.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Path" src="../img/path.jpg" /></a>
     <figcaption>Fixed collection.media folder path</figcaption></p>
 </figure>
-<p>This fixes the first issue. To fix the second, click on the cog wheel next to the Audio option in the Hotkey settings. Next, go to Screen recorder.</p>
+<p>This fixes the first issue. To fix the second, click on the cog wheel next to the Audio option in the Hotkey settings. Next, go to Screen recorder:</p>
 <figure>
 <p><a class="glightbox" href="../img/screen_recorder.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Recorder" src="../img/screen_recorder.jpg" /></a>
     <figcaption>Screen recorder options</figcaption></p>
 </figure>
-<p>Next, open up Screen recording options... and click on Install recorder devices. Once this is done, check that Video Source: is set to None and Audio Source: is set to virtual-audio-capturer.</p>
+<p>Next, open up Screen recording options... and click on Install recorder devices. Once this is done, check that Video Source: is set to None and Audio Source: is set to virtual-audio-capturer:</p>
 <figure>
 <p><a class="glightbox" href="../img/rec-options.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="recording-options" src="../img/rec-options.jpg" /></a>
     <figcaption>Screen recording options</figcaption></p>
 </figure>
-<p>You can now quite this screen and you should have a functional ShareX setup. If you have a mouse with external buttons, I highly recommend using <a href="https://drive.google.com/file/d/1r8COiKVH-dertjVOscdXdLXLuTUUjjy3/view">Xelieu's one-click script</a>. To use it, install <a href="https://www.autohotkey.com/download/">AutoHotKey</a>. Once you want to use it, simply open up AutoHotKey and launch the script above (double-click on it). This allows you to use the Screenshot and Audio shortcuts with your mouse. On my mouse, the upper most button does Screenshot (VN) and the lowermost button does Audio (Anki).</p>
+<p>You can now quit this screen and you should have a functional ShareX setup. If you have a mouse with external buttons, I highly recommend using <a href="https://drive.google.com/file/d/1r8COiKVH-dertjVOscdXdLXLuTUUjjy3/view">Xelieu's one-click script</a>. To use it, install <a href="https://www.autohotkey.com/download/">AutoHotKey</a>. Once you want to use it, simply open up AutoHotKey and launch the script above (double-click on it). This allows you to use the Screenshot and Audio shortcuts with your mouse. On my mouse, the upper most button does Screenshot (VN) and the lowermost button does Audio (Anki).</p>
 <h5 id="mining-recap">Mining recap</h5>
-<p>To mine, we now open up our visual novel, Textractor, the exSTATic tracker page and ShareX. Follow the steps in the Textractor section to get the text hooked on the exSTATic tracker page, and use Yomichan to mine words by clicking on the big green button in the pop-up window. Once this is done, take a screenshot of the visual novel with either Shift+Alt+C or your mouse button if using Xelieu's hotkeys. If the line is voiced and don't mind spending the time to grab the audio, record the audio with either Shift+Alt+A or the other mouse button. Congratulations, you have mined a card from your visual novel!</p>
+<p>To mine, we now open up our visual novel, Textractor, the exSTATic tracker page and ShareX. Follow the steps in the Textractor section to get the text hooked on the exSTATic tracker page, and use Yomichan to mine words by clicking on the big green button in the pop-up window. Once this is done, take a screenshot of the visual novel with either Shift+Alt+C or your mouse button if using Xelieu's hotkeys. If the line is voiced and don't mind spending the time to grab the audio, record the audio with either Shift+Alt+A or the other mouse button. Congratulations, you have mined a word from your visual novel!</p>
 <h4 id="other-setups">Other setups</h4>
 <p>Here is a quick list of a few other mining setups that are available.</p>
 <h5 id="manga-setup">Manga setup</h5>
