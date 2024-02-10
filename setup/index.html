@@ -928,12 +928,14 @@
 <h4 id="installing-fonts">Installing fonts</h4>
 <p>I highly suggest you find a set of Japanese fonts that you really like. I personally use the <a href="https://fonts.google.com/noto/specimen/Noto+Sans+JP">Noto Japanese family of fonts</a>. It is ultimately up to you to decide, but I recommend going for fonts that you won't mind looking at for a long amount of time, because you will. To install them in Windows, just right click on them and install.</p>
 <h4 id="installing-basic-add-ons">Installing basic add-ons</h4>
-<p><em><a href="https://mega.nz/file/djclGDzQ#TDUQYd2vxl7BXHccY8L6juyJIwWzBGNiUS9iTc9_t5k">Download all the add-ons I have here</a>. To do this, go in Anki &gt; Tools and then View Files on the bottom left. This opens a folder. Unzip the add-ons above and drop them all in this folder. If you just want to see a visual list of all add-ons I have, scroll down.</em></p>
+<p><em><a href="https://mega.nz/file/8j0mQT7D#OrG4r1MiZFjBM4FQJfsntfMOxW8sY7shQG-2Py_RGzc">Download all the add-ons I have here</a>. To do this, go in Anki &gt; Tools and then View Files on the bottom left. This opens a folder. Unzip the add-ons above and drop them all in this folder. If you just want to see a visual list of all add-ons I have, scroll down.</em></p>
 <p>Anki is customizable in two ways: The first one is the settings menu that can be found in the app itself, the second one is additional plug-ins (usually called add-ons) that you can find on <a href="https://Ankiweb.net/shared/addons/">Anki's add-on page</a>. The first issue with vanilla Anki is the "ease problem" discussed in <a href="https://animecards.site/Ankisetup/#the-ease-problem">here</a>. The problem arises when one misses a card repeatedly which lowers the ease factor on that card. Concretely, this means that you will see the card more and more, and on vanilla Anki, the only way to push the ease factor back up is to press "Easy". But it is not clear why this distinction is meaningful, and it is not clear either what "Hard", "Good" or "Easy" represent when learning a language. We are going to sidestep the problem entirely by changing the way Anki deals with ease. To do this, we are going to use the following two add-ons:</p>
 <h5 id="general-add-ons">General add-ons</h5>
 <p>These add-ons are useful for everyone and every deck.</p>
 <h6 id="advanced-browser"><a href="https://ankiweb.net/shared/info/874215009">Advanced Browser</a></h6>
 <p>As the name implies, this gives the browser featured more functionalities.</p>
+<h6 id="advanced-copy-field"><a href="https://ankiweb.net/shared/info/1898445115">Advanced Copy Field</a></h6>
+<p>Lets you replace and copy things from your Anki fields. It also lets you create some cool custom templates from the fields themselves.</p>
 <h6 id="autoreorder"><a href="https://Ankiweb.net/shared/info/757527607">AutoReorder</a></h6>
 <p>AutoReorder is an add-on that lets you re-order your new cards based on a frequency field. It will be used in conjunction with <a href="https://github.com/MarvNC/JP-Resources#sorting-mined-Anki-cards-by-frequency">Marv's frequency sorter</a> to allow one to use frequency dictionaries to mine effectively and have the most frequent new words come up first.</p>
 <h6 id="batch-editing"><a href="https://Ankiweb.net/shared/info/291119185">Batch Editing</a></h6>
@@ -946,10 +948,13 @@
 <p>This add-on is optional. It removes the "Hard" and "Easy" buttons entirely, which is more of a matter of taste. Personally, I use it.</p>
 <h6 id="progress-graphs"><a href="https://ankiweb.net/shared/info/266436365">Progress Graphs</a></h6>
 <p>Adds cool progress graphs to help you understand your Anki usage better.</p>
+<h6 id="study-time-stats"><a href="https://ankiweb.net/shared/info/1247171202">Study Time Stats</a></h6>
+<p>Adds some time statistics on the main Anki window which is useful if you want to see how much time you spent on Anki this week for instance.</p>
 <h6 id="review-heatmap"><a href="https://Ankiweb.net/shared/info/1771074083">Review Heatmap</a></h6>
 <p>Review Heatmap lets you see your progress on the main page of Anki by showing you what days you did Anki and how many reviews you did.</p>
-<h6 id="straight-reward"><a href="https://Ankiweb.net/shared/info/957961234">Straight Reward</a></h6>
-<p>The add-on makes it so that hitting "Hard", "Good" or "Easy" is considered a success, and chaining together successes increases the ease factor, thus making you see the card less often (since you keep getting it right, you don't need to see it as much). This makes it easy to fix a bad day where you hit again on the same card multiple times. <strong>If you are using FSRS (see below), this has no effect and is not needed.</strong></p>
+<h6 id="straight-reward-or-fsrs4anki-helper"><a href="https://Ankiweb.net/shared/info/957961234">Straight Reward</a> or <a href="https://ankiweb.net/shared/info/759844606">FSRS4Anki Helper</a></h6>
+<p>Straight Reward makes it so that hitting "Hard", "Good" or "Easy" is considered a success, and chaining together successes increases the ease factor, thus making you see the card less often (since you keep getting it right, you don't need to see it as much). This makes it easy to fix a bad day where you hit again on the same card multiple times. <strong>If you are using FSRS (see below), this has no effect and is not needed.</strong></p>
+<p>If you are using FSRS, install FSRS4Anki Helper instead. It lets you customize some settings for FSRS.</p>
 <h6 id="true-retention-by-card-maturity-simplified"><a href="https://Ankiweb.net/shared/info/1779060522">True Retention by Card Maturity Simplified</a></h6>
 <p>This add-on gives you accurate information about your retention on mature and young cards.</p>
 <h5 id="japanese-specific-add-ons">Japanese-specific add-ons</h5>
@@ -960,10 +965,9 @@
 <p>AJT Mortician is used to deal with cards that you fail consistently during the same review session. This usually indicates that the card is giving you particular trouble, and it might be worth spending some time on it outside of Anki (or in a custom study session) to memorize it. Don't forget to check "Count from Daystart."</p>
 <h6 id="ankiconnect"><a href="https://Ankiweb.net/shared/info/2055492159">AnkiConnect</a></h6>
 <p>This is by far the most important add-on for mining. It allows one to use Yomichan to create cards automatically, more on this in the mining section below.</p>
-<h6 id="kanji-grid"><a href="https://Ankiweb.net/shared/info/909972618">Kanji Grid</a></h6>
-<p><strong>DISCLAIMER: Currently broken in Anki 23.10, use an older version if you want to use it. There is a fix but it is not complete at the moment.</strong></p>
-<p>Kanji Grid is a pretty old but reliable add-on that lets you create a grid of kanji, ranking them based on how well you know them. It is not strictly necessary, but seeing the grid fill up as you learn new kanji is uniquely satisfying.</p>
-<h6 id="yomichan-forvo-server-local-audio-server-for-yomichan"><a href="https://Ankiweb.net/shared/info/580654285">Yomichan Forvo Server</a> + <a href="https://Ankiweb.net/shared/info/1045800357">Local Audio Server for Yomichan</a></h6>
+<h6 id="kanji-grid-kuuube"><a href="https://ankiweb.net/shared/info/1610304449">Kanji Grid Kuuube</a></h6>
+<p>Kanji Grid is a pretty old but reliable add-on that lets you create a grid of kanji, ranking them based on how well you know them. It is not strictly necessary, but seeing the grid fill up as you learn new kanji is uniquely satisfying. The 2.3.x Anki updates rendered the original add-on irrelevant but thankfully <a href="https://github.com/Kuuuube">Kuuube</a> made the add-on compatible with the newer Anki versions. They also added new features and made everything more stable.</p>
+<h6 id="yomichan-forvo-server-and-local-audio-server-for-yomichan"><a href="https://Ankiweb.net/shared/info/580654285">Yomichan Forvo Server</a> and <a href="https://Ankiweb.net/shared/info/1045800357">Local Audio Server for Yomichan</a></h6>
 <p>Lastly, Yomichan Forvo Server and Local Audio Server for Yomichan are used to add custom audio from <a href="https://forvo.com/">Forvo</a> to Yomichan on your local machine, letting you access audio almost instantaneously and fixing some of the issues with the original audio files in Yomichan (usually coming from JapanesePod101, which has some errors). Simply follow the steps listed on <a href="https://github.com/themoeway/local-audio-yomichan">this page</a> to get it up and working.</p>
 <figure>
 <p><a class="glightbox" href="../img/Anki_addons.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="add-ons" src="../img/Anki_addons.png" width="800" /></a>
@@ -982,7 +986,7 @@
 <hr />
 <h3 id="yomibaba-setup">Yomibaba Setup</h3>
 <p>Now that we have Anki set up, it is time to focus on the second crucial tool we will use to learn Japanese: Yomichan. Yomichan is a browser plugin you can use in Firefox or Google Chrome to use Japanese dictionaries while browsing the Internet. This means that you can look up words on the fly simply by hovering over them and pressing a certain keybinding (or none at all). <strong>Sadly, Yomichan is now outdated and needs a new fork.</strong> Until a fork has emerged as the successor to Yomichan, I recommend using <a href="https://github.com/forsakeninfinity/yomibaba">Yomibaba</a>, a temporary fork made to avoid an annoying bug on Firefox.</p>
-<p><strong>DISCLAIMER: A new fork has emerged: <a href="https://github.com/themoeway/yomitan">Yomitan</a>, but it has two annoying bugs related to the note type we are going to be using. For this reason, I recommend that people following my mining setup in its entirety stick to Yomibaba for now. If that doesn't apply to you, feel free to use Yomitan.</strong></p>
+<p><strong>DISCLAIMER: A new fork has emerged: <a href="https://github.com/themoeway/yomitan">Yomitan</a>. As the add-on just released, I am waiting a bit to see the early release bugs get ironed out. In particular, there have been related to the note type I use, jp-mining. For this reason, I recommend that people following my mining setup in its entirety stick to Yomibaba for now. If that doesn't apply to you, feel free to use Yomitan.</strong></p>
 <h4 id="installing-yomibaba-yomichan">Installing Yomibaba (Yomichan)</h4>
 <p>To install Yomibaba, go to the <a href="https://github.com/forsakeninfinity/yomibaba/releases">releases page</a> and grab either the Firefox signed extension or the Chrome extension under Assets. Once it is installed a guide should be presented to you. Please read it to see how Yomichan works.</p>
 <h4 id="adding-dictionaries">Adding Dictionaries</h4>
