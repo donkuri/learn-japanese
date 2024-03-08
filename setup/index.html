@@ -52,6 +52,8 @@
       
     
     
+      <link rel="stylesheet" href="../style.css">
+    
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -521,9 +523,9 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#anki-a-spaced-repetition-system" class="md-nav__link">
+  <a href="#what-is-anki" class="md-nav__link">
     <span class="md-ellipsis">
-      Anki, a spaced-repetition system
+      What is Anki?
     </span>
   </a>
   
@@ -777,9 +779,9 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#anki-a-spaced-repetition-system" class="md-nav__link">
+  <a href="#what-is-anki" class="md-nav__link">
     <span class="md-ellipsis">
-      Anki, a spaced-repetition system
+      What is Anki?
     </span>
   </a>
   
@@ -922,8 +924,17 @@
 <p>The operation systems I use are EndeavourOS (an Arch derivative) and Windows 10 in a dualboot setup. I do most everything Anki-related on EndeavourOS and most mining on Windows 10. This setup hasn't been tested elsewhere. If you want to mine visual novels on Linux I suggest looking at <a href="https://learnjapanese.moe/vn-linux/">this page</a>.</p>
 <hr />
 <h3 id="anki-setup">Anki setup</h3>
+<ol>
+<li><a href="./#what-is-anki">What is Anki?</a></li>
+<li><a href="./#installing-anki">Installing Anki</a></li>
+<li><a href="./#changing-your-settings">Changing your settings</a></li>
+<li><a href="./#installing-fonts">Installing fonts</a></li>
+<li><a href="./#installing-basic-add-ons">Installing basic add-ons</a></li>
+<li><a href="./#enabling-fsrs">Enabling FSRS</a></li>
+<li><a href="./#anki-setup-checklist">Anki setup checklist</a></li>
+</ol>
 <p>The first tool we are going to set up is Anki. But first, what exactly is Anki?</p>
-<h4 id="anki-a-spaced-repetition-system">Anki, a spaced-repetition system</h4>
+<h4 id="what-is-anki">What is Anki?</h4>
 <p>The idea behind Anki is probably older than the Internet itself. A very popular method to memorize anything is to use physical flashcards. You take a piece of paper, write a question, or more generally a prompt in the front of the card and you write the answer on the back of the card. Put simply, Anki is a virtual library of flashcard decks. It can be used to learn just about anything that requires memorization, 暗記 <em>anki</em> being the Japanese term for memorization. This is not only useful to language learners but also to geography enthusiasts and med school students.</p>
 <p>Unfortunately, vanilla Anki (<em>i.e.</em> Anki without additional plugins or a specialized setup) suffers from a few issues. Those issues are very well documented and you should read <a href="https://cademcniven.com/posts/20210410/">this article</a> to see what they are. In the following, I will try to summarize things for people who don't want to have to read through various guides and want a simple mining setup. I do not claim any originality in this setup, it is simply an amalgamation of various resources I have used to create my own setup that I like, like <a href="https://xelieu.github.io/jp-lazy-guide/">this guide</a>. As said before, I use Linux and Windows. I have no idea how MacOS works and I cannot help with it. Hopefully the guide is still useful to you if you're not using a similar setup!</p>
 <h4 id="installing-anki">Installing Anki</h4>
@@ -990,7 +1001,14 @@
 <li><a href="./#installing-basic-add-ons">Install add-ons</a>.</li>
 <li>Optionally, <a href="./#enabling-fsrs">install FSRS</a>.</li>
 </ol>
+<hr />
 <h3 id="yomitan-setup">Yomitan Setup</h3>
+<ol>
+<li><a href="./#installing-yomitan">Installing Yomitan</a></li>
+<li><a href="./#adding-dictionaries">Adding dictionaries</a></li>
+<li><a href="./#configuring-yomitan">configuring Yomitan</a></li>
+<li><a href="./#yomitan-setup-checklist">Yomitan setup checklist</a></li>
+</ol>
 <p>Now that we have Anki set up, it is time to focus on the second crucial tool we will use to learn Japanese: <a href="https://github.com/themoeway/yomitan">Yomitan</a>. Yomitan is a fork of the old <a href="https://foosoft.net/projects/yomichan/">Yomichan browser plugin</a> you can install in Firefox or Google Chrome to use Japanese dictionaries while browsing the Internet. This means that you can look up words on the fly simply by hovering over them and pressing a certain keybinding (or none at all). The original project was sunset by its original author and the team at TMW decided to pick up the slack. Thus Yomitan was born.</p>
 <h4 id="installing-yomitan">Installing Yomitan</h4>
 <p>To install Yomitan, grab either the <a href="https://chromewebstore.google.com/detail/yomitan/likgccmbimhjbgkjambclfkhldnlhbnn?pli=1">chrome version</a> or the <a href="https://addons.mozilla.org/en-US/firefox/addon/yomitan/">firefox version</a>. Once it is installed a guide should be presented to you. Please read it to see how Yomitan works.</p>
