@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
+        <loc>https://donkuri.github.io/learn-japanese/</loc>
+        <lastmod>2024-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://donkuri.github.io/learn-japanese/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://donkuri.github.io/learn-japanese/fr/"/>
+    </url>
+    <url>
         <loc>https://donkuri.github.io/learn-japanese/guide/</loc>
         <lastmod>2024-03-09</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://donkuri.github.io/learn-japanese/guide/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://donkuri.github.io/learn-japanese/fr/guide/"/>
-    </url>
-    <url>
-        <loc>https://donkuri.github.io/learn-japanese/homepage/</loc>
-        <lastmod>2024-03-09</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://donkuri.github.io/learn-japanese/homepage/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://donkuri.github.io/learn-japanese/fr/homepage/"/>
     </url>
     <url>
         <loc>https://donkuri.github.io/learn-japanese/immersion/</loc>
@@ -57,18 +57,18 @@
         <xhtml:link rel="alternate" hreflang="fr" href="https://donkuri.github.io/learn-japanese/fr/setup/"/>
     </url>
     <url>
+        <loc>https://donkuri.github.io/learn-japanese/fr/</loc>
+        <lastmod>2024-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://donkuri.github.io/learn-japanese/fr/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://donkuri.github.io/learn-japanese/"/>
+    </url>
+    <url>
         <loc>https://donkuri.github.io/learn-japanese/fr/guide/</loc>
         <lastmod>2024-03-09</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="fr" href="https://donkuri.github.io/learn-japanese/fr/guide/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://donkuri.github.io/learn-japanese/guide/"/>
-    </url>
-    <url>
-        <loc>https://donkuri.github.io/learn-japanese/fr/homepage/</loc>
-        <lastmod>2024-03-09</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://donkuri.github.io/learn-japanese/fr/homepage/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://donkuri.github.io/learn-japanese/homepage/"/>
     </url>
     <url>
         <loc>https://donkuri.github.io/learn-japanese/fr/immersion/</loc>
