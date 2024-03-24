@@ -1,28 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-         <loc>https://donkuri.github.io/learn-japanese/</loc>
-         <lastmod>2023-08-05</lastmod>
-         <changefreq>daily</changefreq>
+        <loc>https://donkuri.github.io/learn-japanese/</loc>
+        <lastmod>2024-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://donkuri.github.io/learn-japanese/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://donkuri.github.io/learn-japanese/fr/"/>
     </url>
     <url>
-         <loc>https://donkuri.github.io/learn-japanese/guide/</loc>
-         <lastmod>2023-08-05</lastmod>
-         <changefreq>daily</changefreq>
+        <loc>https://donkuri.github.io/learn-japanese/guide/</loc>
+        <lastmod>2024-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://donkuri.github.io/learn-japanese/guide/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://donkuri.github.io/learn-japanese/fr/guide/"/>
     </url>
     <url>
-         <loc>https://donkuri.github.io/learn-japanese/recs/</loc>
-         <lastmod>2023-08-05</lastmod>
-         <changefreq>daily</changefreq>
+        <loc>https://donkuri.github.io/learn-japanese/immersion/</loc>
+        <lastmod>2024-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://donkuri.github.io/learn-japanese/immersion/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://donkuri.github.io/learn-japanese/fr/immersion/"/>
     </url>
     <url>
-         <loc>https://donkuri.github.io/learn-japanese/resources/</loc>
-         <lastmod>2023-08-05</lastmod>
-         <changefreq>daily</changefreq>
+        <loc>https://donkuri.github.io/learn-japanese/mining/</loc>
+        <lastmod>2024-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://donkuri.github.io/learn-japanese/mining/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://donkuri.github.io/learn-japanese/fr/mining/"/>
     </url>
     <url>
-         <loc>https://donkuri.github.io/learn-japanese/setup/</loc>
-         <lastmod>2023-08-05</lastmod>
-         <changefreq>daily</changefreq>
+        <loc>https://donkuri.github.io/learn-japanese/misc/</loc>
+        <lastmod>2024-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://donkuri.github.io/learn-japanese/misc/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://donkuri.github.io/learn-japanese/fr/misc/"/>
+    </url>
+    <url>
+        <loc>https://donkuri.github.io/learn-japanese/recs/</loc>
+        <lastmod>2024-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://donkuri.github.io/learn-japanese/recs/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://donkuri.github.io/learn-japanese/fr/recs/"/>
+    </url>
+    <url>
+        <loc>https://donkuri.github.io/learn-japanese/resources/</loc>
+        <lastmod>2024-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://donkuri.github.io/learn-japanese/resources/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://donkuri.github.io/learn-japanese/fr/resources/"/>
+    </url>
+    <url>
+        <loc>https://donkuri.github.io/learn-japanese/setup/</loc>
+        <lastmod>2024-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://donkuri.github.io/learn-japanese/setup/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://donkuri.github.io/learn-japanese/fr/setup/"/>
+    </url>
+    <url>
+        <loc>https://donkuri.github.io/learn-japanese/fr/</loc>
+        <lastmod>2024-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://donkuri.github.io/learn-japanese/fr/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://donkuri.github.io/learn-japanese/"/>
+    </url>
+    <url>
+        <loc>https://donkuri.github.io/learn-japanese/fr/guide/</loc>
+        <lastmod>2024-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://donkuri.github.io/learn-japanese/fr/guide/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://donkuri.github.io/learn-japanese/guide/"/>
+    </url>
+    <url>
+        <loc>https://donkuri.github.io/learn-japanese/fr/immersion/</loc>
+        <lastmod>2024-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://donkuri.github.io/learn-japanese/fr/immersion/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://donkuri.github.io/learn-japanese/immersion/"/>
+    </url>
+    <url>
+        <loc>https://donkuri.github.io/learn-japanese/fr/mining/</loc>
+        <lastmod>2024-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://donkuri.github.io/learn-japanese/fr/mining/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://donkuri.github.io/learn-japanese/mining/"/>
+    </url>
+    <url>
+        <loc>https://donkuri.github.io/learn-japanese/fr/misc/</loc>
+        <lastmod>2024-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://donkuri.github.io/learn-japanese/fr/misc/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://donkuri.github.io/learn-japanese/misc/"/>
+    </url>
+    <url>
+        <loc>https://donkuri.github.io/learn-japanese/fr/recs/</loc>
+        <lastmod>2024-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://donkuri.github.io/learn-japanese/fr/recs/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://donkuri.github.io/learn-japanese/recs/"/>
+    </url>
+    <url>
+        <loc>https://donkuri.github.io/learn-japanese/fr/resources/</loc>
+        <lastmod>2024-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://donkuri.github.io/learn-japanese/fr/resources/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://donkuri.github.io/learn-japanese/resources/"/>
+    </url>
+    <url>
+        <loc>https://donkuri.github.io/learn-japanese/fr/setup/</loc>
+        <lastmod>2024-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://donkuri.github.io/learn-japanese/fr/setup/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://donkuri.github.io/learn-japanese/setup/"/>
     </url>
 </urlset>
