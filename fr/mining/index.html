@@ -22,7 +22,7 @@
       
       
       <link rel="icon" href="../../img/kuri_gold.png">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.1">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.31">
     
     
       
@@ -30,7 +30,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.45e1311d.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.3cba04c6.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
@@ -72,17 +72,15 @@
     
     
    <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
-        html.glightbox-open { overflow: initial; height: 100%; }
-        .gslide-title { margin-top: 0px; user-select: text; }
-        .gslide-desc { color: #666; user-select: text; }
-        .gslide-image img { background: white; }
-        
-            .gscrollbar-fixer { padding-right: 15px; }
-            .gdesc-inner { font-size: 0.75rem; }
-            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
-            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
-            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
-            </style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -233,7 +231,7 @@
       
     </form>
     <div class="md-search__output">
-      <div class="md-search__scrollwrap" data-md-scrollfix>
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
             Initialisation de la recherche
@@ -1042,7 +1040,7 @@
 <h2 id="deck-de-minage">Deck de minage</h2>
 <ol>
 <li><a href="./#choisir-un-type-de-note-pour-anki">Choisir un type de note pour Anki</a></li>
-<li><a href="./#utiliser-l'outil-d'ordonnage-de-frequence-de-marv">Utiliser l'outil d'ordonnage de fréquence de Marv</a></li>
+<li><a href="./#utiliser-loutil-dordonnage-de-frequence-de-marv">Utiliser l'outil d'ordonnage de fréquence de Marv</a></li>
 <li><a href="./#configuration-pour-visual-novels">Configuration pour visual novel</a></li>
 <li><a href="./#configuration-pour-anime">Configuration pour anime</a></li>
 <li><a href="./#configuration-pour-light-novels-et-romans">Configuration pour light novels et romans</a></li>
@@ -1056,7 +1054,7 @@
 <h4 id="utiliser-loutil-dordonnage-de-frequence-de-marv">Utiliser l'outil d'ordonnage de fréquence de Marv</h4>
 <p>L'outil d'ordonnage de fréquence de Marv nous permet d'utiliser plusieurs dictionnaires de fréquence pour obtenir la moyenne harmonique de plusieurs dictionnaires. Cette moyenne peut alors être utilisé pour réordonner nos nouvelles cartes par fréquence. Si vous avez importé mes paramètres Yomitan, vous n'aurez rien à changer dans Yomitan. Si vous avez importé mes plugins, vous n'aurez rien à faire. Si ce n'est pas le cas ou si vous voulez changer le nom du deck, vérifiez la configuration du plugin <code>AutoReorder</code> en allant sur <code>Tools &gt; Add-ons</code> et ensuite en faisant un double-clic sur <code>AutoRedorder</code>. Cela va ouvrir un fichier de configuration et vous pourrez changer le nom du deck (qui devrait être Mining par défaut si vous avez importé mes plugins) à ce que vous voulez qu'il soit.</p>
 <figure>
-<p><a class="glightbox" href="../../img/autoreorder.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Autoreorder" src="../../img/autoreorder.png" /></a>
+<p><a class="glightbox" href="../../img/autoreorder.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Autoreorder" src="../../img/autoreorder.png" /></a>
     <figcaption>Configurer le minage par fréquence</figcaption></p>
 </figure>
 <h3 id="du-choix-de-vos-contenus-dimmersion">Du choix de vos contenus d'immersion</h3>
@@ -1071,53 +1069,53 @@
 <h4 id="textractor">Textractor</h4>
 <p>La première étape est d'obtenir un extracteur de texte. C'est un outil qui vous permet d'extraire le texte du jeu dans votre navigateur web pour utiliser Yomitan pour le minage. L'extracteur de text recommandé de nos jours est <a href="https://github.com/Artikash/Textractor">Textractor</a>. </p>
 <figure>
-<p><a class="glightbox" href="../../img/Textractor.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Textractor" src="../../img/Textractor.jpg" /></a>
+<p><a class="glightbox" href="../../img/Textractor.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Textractor" src="../../img/Textractor.jpg" /></a>
     <figcaption>Textractor</figcaption></p>
 </figure>
 <p>Vous pouvez le télécharger <a href="https://github.com/Artikash/Textractor/releases">ici</a>. Téléchargez la dernière version et lancez le fichier <code>.exe</code>. Ensuite, ouvrez Textractor et allez sous <code>Extensions</code>. Si vous ne voyez pas <code>Textractor-Sender</code>, téléchargez le <a href="https://github.com/KamWithK/TextractorSender/releases/tag/1.1-beta">ici</a> et rajouter le fichier <code>.xdll</code> dans vos extensions en pressant clic-droit sur la liste.</p>
 <figure>
-<p><a class="glightbox" href="../../img/Textractor_Extensions.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Extensions" src="../../img/Textractor_Extensions.jpg" /></a>
+<p><a class="glightbox" href="../../img/Textractor_Extensions.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Extensions" src="../../img/Textractor_Extensions.jpg" /></a>
     <figcaption>Les extensions à avoir (dans cet ordre)</figcaption></p>
 </figure>
 <p>Une fois ceci fait, nous pouvons maintenant extraire le texte. Pour ce faire, commencer par selectionner un processus en cliquant sur la boîte vide en haut à gauche et en cherchant votre visual novel.</p>
 <figure>
-<p><a class="glightbox" href="../../img/Textractor_Process.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Process" src="../../img/Textractor_Process.jpg" /></a>
+<p><a class="glightbox" href="../../img/Textractor_Process.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Process" src="../../img/Textractor_Process.jpg" /></a>
     <figcaption>Choisir un processus</figcaption></p>
 </figure>
 <p>Une fois ceci fait, cliquer simplement dans votre visual novel pour aller à la frame suivante. Vous pouvez alors cliquer sur la barre supérieure (où il y a marqué <code>Console</code>, dans Textractor) et cherchez jusqu'à ce que vous trouviez une option qui a le texte de cette ligne du VN, et rien d'autre.</p>
 <figure>
-<p><a class="glightbox" href="../../img/Textractor_Mining.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="TexMining" src="../../img/Textractor_Mining.jpg" /></a>
+<p><a class="glightbox" href="../../img/Textractor_Mining.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="TexMining" src="../../img/Textractor_Mining.jpg" /></a>
     <figcaption>Extraire le texte du VN</figcaption></p>
 </figure>
 <h4 id="exstatic">exSTATic</h4>
 <p>Nous avons maintenant besoin d'une méthode pour acheminer le texte dans votre navigateur web. Il y a deux manières de faire ça: copier le presse-papier ou utiliser des <em>WebSockets</em>. La deuxième option est généralement plus propre et conduit à moins d'erreurs. Nous allons utiliser <a href="https://github.com/KamWithK/exSTATic">exSTATic</a> que vous devriez pouvoir trouver <a href="https://addons.mozilla.org/en-US/firefox/addon/exstatic/">ici pour Firefox</a> et <a href="https://chromewebstore.google.com/detail/exstatic/boabpbnobedbbggedmlnnlhmacialgac">là pour Google Chrome</a>. Vous pouvez aussi suivre les instructions <a href="https://github.com/KamWithK/exSTATic#install-instructions">ici</a>. Une fois cette extension installée, vous pouvez ouvrir la <a href="https://kamwithk.github.io/exSTATic/tracker.html">page principale</a> que je vous suggère de la mettre dans vos favoris car c'est là que vous allez faire votre minage.</p>
 <figure>
-<p><a class="glightbox" href="../../img/exSTATic.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="exSTATic" src="../../img/exSTATic.jpg" /></a>
+<p><a class="glightbox" href="../../img/exSTATic.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="exSTATic" src="../../img/exSTATic.jpg" /></a>
     <figcaption>La page principale d'exSTATic avec du texte</figcaption></p>
 </figure>
 <h4 id="sharex">ShareX</h4>
 <p>Finalement, nous avons besoin d'un outil pour extraire l'image et (si besoin ou désiré) l'audio de la phrase que vous êtes en train de miner. Cet outil est <a href="https://getsharex.com/">ShareX</a>. Pour commencer, installez le logiciel puis <a href="https://mega.nz/file/UnUjUDzC#zlF_iuIdELDq4-rk4o20EYa4Be3qdc3y5Caay9Eumbg">importer mes paramètres</a>. Pour ce faire, aller dans <code>Application settings...</code> sur la gauche (notez que le thème pourrait être différent):</p>
 <figure>
-<p><a class="glightbox" href="../../img/application_settings.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="AppSettings" src="../../img/application_settings.jpg" /></a></p>
+<p><a class="glightbox" href="../../img/application_settings.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="AppSettings" src="../../img/application_settings.jpg" /></a></p>
 </figure>
 <p>Une fois ceci fait, aller dans <code>Settings &gt; Import...</code> et utiliser mon fichier de paramètres:</p>
 <figure>
-<p><a class="glightbox" href="../../img/importing.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Importing" src="../../img/importing.jpg" /></a>
+<p><a class="glightbox" href="../../img/importing.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Importing" src="../../img/importing.jpg" /></a>
     <figcaption>Importer mes paramètres</figcaption></p>
 </figure>
 <p>Si vous allez dans le menu principal, vous devriez maintenant voir ceci:</p>
 <figure>
-<p><a class="glightbox" href="../../img/ShareX.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="ShareX" src="../../img/ShareX.jpg" /></a>
+<p><a class="glightbox" href="../../img/ShareX.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="ShareX" src="../../img/ShareX.jpg" /></a>
     <figcaption>La page principale de ShareX</figcaption></p>
 </figure>
 <p>Si vous voulez utiliser un autre thème (j'utilise le thème <code>Dark</code> par exemple), vous pouvez aller dans <code>Applications settings... &gt; Theme</code>:</p>
 <figure>
-<p><a class="glightbox" href="../../img/theme.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Theme" src="../../img/theme.jpg" /></a>
+<p><a class="glightbox" href="../../img/theme.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Theme" src="../../img/theme.jpg" /></a>
     <figcaption>Changer le thème dans ShareX</figcaption></p>
 </figure>
 <p>Retournons maintenant sur la gauche et cliquons sur <code>Hotkey settings...</code>.</p>
 <figure>
-<p><a class="glightbox" href="../../img/hotkeys.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="hotkeys" src="../../img/hotkeys.jpg" /></a>
+<p><a class="glightbox" href="../../img/hotkeys.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="hotkeys" src="../../img/hotkeys.jpg" /></a>
     <figcaption>Le menu de paramètres des raccourcis de clavier</figcaption></p>
 </figure>
 <p>Il y a quatre options. Le premier est <code>Audio (Anki)</code>, qui nous permet d'enregistrer de l'audio et de l'avoir directement envoyé dans le dossier <code>collection.media</code> d'Anki. Cela implique que vous pouvez miner une carte et enregistrer un bout d'audio juste après, et que cet audio enregistré sera automatiquement envoyé dans le champ audio du deck de minage. C'est utile par exemple si vous voulez enregistrer l'audio d'une voix dans votre visual novel par exemple. La deuxième option nous permet de prendre une capture d'écran en découpant une partie de l'écran ce qui est utile quand on lit des manga. Les deux options sont ce que nous avons besoin pour les visual novels. La troisième option capture l'image du VN and la met dans le champ image de notre nouvelle carte qu'on vient de miner. La quatrième option fait la même chose, mais rend l'image flou, pour peu que vous utilisiez mes paramètres pour Yomitan. C'est utile si la scène du visual novel n'est pas approprié pour tous les âges ou que vous ne voulez tout simplement pas que les autres puissent la voir sans que vous cliquiez explicitement dessus.</p>
@@ -1128,22 +1126,22 @@
 </ol>
 <p>Réglons d'abord le premier problème. Commencez par ouvrir la roue dentée à droite de chaque option ci-dessus: Audio, screenshot, etc. Cela ouvre le menu suivant:</p>
 <figure>
-<p><a class="glightbox" href="../../img/media-folder.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Media folder" src="../../img/media-folder.jpg" /></a>
+<p><a class="glightbox" href="../../img/media-folder.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Media folder" src="../../img/media-folder.jpg" /></a>
     <figcaption>Changer le chemin d'accès du fichier média d'Anki</figcaption></p>
 </figure>
 <p>Notez la partie floue en bas (qui ne devrait pas être floue sur votre ordinateur). C'est mon chemin d'accès au dossier <code>collection.media</code>. Vous devez le changer pour le vôtre. La première partie est votre nom d'utilisateur Windows, le deuxième votre nom de profil Anki. Vous pouvez aussi simplement taper <code>%appdata%</code> dans la barre de recherche, pressez la touche <code>Enter</code> et trouver votre dossier <code>collection.media</code> directement de cette manière, généralement dans <code>Roaming &gt; Anki2</code>. Dans les deux cas, ré-écrivez le chemin d'accès pour chacune des quatre options. Cela devrait ressembler à ça (avec des USERNAME et PROFILE différents):</p>
 <figure>
-<p><a class="glightbox" href="../../img/path.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Path" src="../../img/path.jpg" /></a>
+<p><a class="glightbox" href="../../img/path.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Path" src="../../img/path.jpg" /></a>
     <figcaption>Chemin d'accès correctement paramétré</figcaption></p>
 </figure>
 <p>Cela règle le premier problème. Pour régler le second, cliquer sur la roue dentée à côté de l'option Audio dans <code>Hotkey settings... &gt; Audio</code>. Ensuite, aller sur <code>Screen recorder</code>:</p>
 <figure>
-<p><a class="glightbox" href="../../img/screen_recorder.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Recorder" src="../../img/screen_recorder.jpg" /></a>
+<p><a class="glightbox" href="../../img/screen_recorder.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Recorder" src="../../img/screen_recorder.jpg" /></a>
     <figcaption>La configuration de l'enregisteur d'écran</figcaption></p>
 </figure>
 <p>Ensuite, ouvrez <code>Screen recording options...</code> et cliquer sur <code>Install recorder devices</code>. Une fois ceci fait, vérifier que <code>Video Source:</code> a l'option <code>None</code> et <code>Audio Source:</code> a l'option <code>virtual-audio-capturer</code>:</p>
 <figure>
-<p><a class="glightbox" href="../../img/rec-options.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="recording-options" src="../../img/rec-options.jpg" /></a>
+<p><a class="glightbox" href="../../img/rec-options.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="recording-options" src="../../img/rec-options.jpg" /></a>
     <figcaption>Les options de l'enregistreur d'écran</figcaption></p>
 </figure>
 <p>Vous pouvez maintenant quitter cet écran et vous devriez avoir une installation fonctionnelle de ShareX. Si vous avez une souris avec des boutons externes, je vous conseille fortemment d'utiliser les <a href="https://drive.google.com/file/d/1r8COiKVH-dertjVOscdXdLXLuTUUjjy3/view">scripts de Xelieu</a>. Pour les utiliser, installer <a href="https://www.autohotkey.com/download/">AutoHotKey</a>. Une fois que vous voulez utiliser les scripts, faites un double-clic sur le script en question. Cela vous permettra d'utiliser les raccourcis Screenshot et Audio avec votre souris. Sur ma souris, le bouton du haut utilise le raccourci <code>Screenshot (VN)</code> et le bouton du bas utilise le raccourci <code>Audio (Anki)</code>.</p>
@@ -1165,7 +1163,7 @@
 </ol>
 <p>Par exemple, voici mes paramètres:</p>
 <figure>
-<p><a class="glightbox" href="../../img/asbplayer_settings.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="asbplayer-settings" src="../../img/asbplayer_settings.png" /></a>
+<p><a class="glightbox" href="../../img/asbplayer_settings.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="asbplayer-settings" src="../../img/asbplayer_settings.png" /></a>
     <figcaption>Mes paramètres asbplayer</figcaption></p>
 </figure>
 <p>Vous pouvez maintenant miner des anime. Pour ce faire, suivez ces étapes:</p>
@@ -1184,21 +1182,21 @@
 <li>J'ai un deck séparé pour le minage de light novels que j'appelle <code>MiningLN</code>. Quand je veux miner des light novels, je change l'option <code>Anki &gt; Configure card format... &gt; Deck</code> dans Yomitan en mettant <code>MiningLN</code>, de cette manière:</li>
 </ol>
 <figure>
-<p><a class="glightbox" href="../../img/mining_ln_option.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="mining-ln-option" src="../../img/mining_ln_option.png" /></a>
+<p><a class="glightbox" href="../../img/mining_ln_option.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="mining-ln-option" src="../../img/mining_ln_option.png" /></a>
     <figcaption>Configuration pour MiningLN</figcaption></p>
 </figure>
 <ol>
 <li>Quand je commence un nouveau light novel, j'ajoute l'image de couverture (et potentiellement d'autres images du light novel) dans une carte Anki en glissant-déposant l'image sur le champ <code>Picture</code> dans Anki (le champ de l'image). Voici un exemple avec le douzième volume de　<a href="https://en.wikipedia.org/wiki/The_Irregular_at_Magic_High_School">魔法科</a>:</li>
 </ol>
 <figure>
-<p><a class="glightbox" href="../../img/picture_mahouka.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="example-picture-mahouka" src="../../img/picture_mahouka.png" /></a>
+<p><a class="glightbox" href="../../img/picture_mahouka.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="example-picture-mahouka" src="../../img/picture_mahouka.png" /></a>
     <figcaption>Image dans le champ Anki</figcaption></p>
 </figure>
 <ol>
 <li>Cliquer sur le <code>&lt;&gt;</code> sur la droite pour ouvrir les détails. Cela va vous donner quelque chose de la forme<code>&lt;img src=""&gt;</code>. Copier ce texte en le selectionnant avec <code>Ctrl+C</code> ou <code>Clic-droit &gt; Copy</code>. En continuant l'exemple ci-dessus, on a:</li>
 </ol>
 <figure>
-<p><a class="glightbox" href="../../img/full_picture.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="full-picture" src="../../img/full_picture.png" /></a>
+<p><a class="glightbox" href="../../img/full_picture.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="full-picture" src="../../img/full_picture.png" /></a>
     <figcaption>Détails de l'image</figcaption></p>
 </figure>
 <ol>
@@ -1207,7 +1205,7 @@
 <li>Cela ouvre une fenêtre. Collez le nom de l'image que vous venez de copier dans le champ et <strong>vérifiez bien de changer le champ pour le champ de l'image de votre deck ou cela détruira la définition du mot!</strong> Dans mon cas, le champ s'appelle simplement <code>Picture</code>. Finalement, pressez sur <code>Replace</code>. Vous devriez avoir ça:</li>
 </ol>
 <figure>
-<p><a class="glightbox" href="../../img/batch_edit.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="batch-edit" src="../../img/batch_edit.png" /></a>
+<p><a class="glightbox" href="../../img/batch_edit.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="batch-edit" src="../../img/batch_edit.png" /></a>
     <figcaption>Le batch edit des images</figcaption></p>
 </figure>
 <ol>
@@ -1220,10 +1218,10 @@
 <p>Le minage de manga requiert généralement un outil de reconnaissance optique de caractères (OCR en anglais) pour extraire le texte d'un cadrage (panel en anglais). Mon outil préféré pour ça est <a href="https://www.mokuro.moe/">mokuro</a>. Il y a deux, disons trois façons de l'utiliser. Vous pouvez l'utiliser comme un OCR sur les manga que vous avez sur votre ordinateur, auquel cas suivez <a href="https://xelieu.github.io/jp-lazy-guide/setupMangaOnPC/#setup-mokuro-manga">ce guide</a>. Notez que cela requiert une certaine aisance technique, cependant. Vous pouvez aussi directement importer vos mangas dans le <a href="https://reader.mokuro.app/">lecteur</a>, ce qui requiert aussi d'avoir les fichiers manga. Finalement, l'option que je préfère est d'utiliser le <a href="https://catalog.mokuro.moe/">catalogue</a> directement.</p>
 <p>Simplement choisissez un des manga disponibles et commencez à lire. Cliquez sur le manga qui vous intéresse pour l'importer et ensuite scannez les mots avec Yomitan. Voici un exemple de ３月のライオン, notez la partie à droite avec un font différent puisque je suis en train de le scanner:</p>
 <figure>
-<p><a class="glightbox" href="../../img/manga_example.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="manga-example" src="../../img/manga_example.png" /></a>
+<p><a class="glightbox" href="../../img/manga_example.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="manga-example" src="../../img/manga_example.png" /></a>
     <figcaption>Exemple de minage manga avec mokuro</figcaption></p>
 </figure>
-<p>Vous pouvez maintenant utiliser Yomitan pour miner le mot. Pour avancer dans le manga, vous pouvez utiliser les flèches directionnelles gauche et droite. Une fois que vous avez miné un mot, vous pouvez utiliser <a href="../setup/#sharex">ShareX</a> pour sélectionner et découper un panel du manga et l'ajouter à votre mot. J'utilise <code>Shift+Alt+S</code> pour découper le panel. Une fois ceci fait, votre carte Anki devrait avoir le panel dans le champ <code>Picture</code>, pour peu que vous utilisez mes paramètres.</p>
+<p>Vous pouvez maintenant utiliser Yomitan pour miner le mot. Pour avancer dans le manga, vous pouvez utiliser les flèches directionnelles gauche et droite. Une fois que vous avez miné un mot, vous pouvez utiliser <a href="./#sharex">ShareX</a> pour sélectionner et découper un panel du manga et l'ajouter à votre mot. J'utilise <code>Shift+Alt+S</code> pour découper le panel. Une fois ceci fait, votre carte Anki devrait avoir le panel dans le champ <code>Picture</code>, pour peu que vous utilisez mes paramètres.</p>
 <hr />
 <p>Vous êtes maintenant prêt(e) à miner du contenu japonais ! N'hésitez pas à visiter la page de <a href="../recs/">recommandations</a> pour voir quoi miner.</p>
 
@@ -1233,6 +1231,27 @@
 
 
 
+  
+    
+  
+  
+
+
+  <aside class="md-source-file">
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Dernière mise à jour">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">7 août 2024</span>
+  </span>
+
+    
+    
+    
+    
+  </aside>
 
 
   
@@ -1309,11 +1328,13 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["header.autohide", "toc.follow", "navigation.tabs", "navigation.footer"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["header.autohide", "toc.follow", "navigation.tabs", "navigation.footer"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      <script src="../../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
       
     
-  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

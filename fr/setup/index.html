@@ -22,7 +22,7 @@
       
       
       <link rel="icon" href="../../img/kuri_gold.png">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.1">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.31">
     
     
       
@@ -30,7 +30,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.45e1311d.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.3cba04c6.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
@@ -72,17 +72,15 @@
     
     
    <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
-        html.glightbox-open { overflow: initial; height: 100%; }
-        .gslide-title { margin-top: 0px; user-select: text; }
-        .gslide-desc { color: #666; user-select: text; }
-        .gslide-image img { background: white; }
-        
-            .gscrollbar-fixer { padding-right: 15px; }
-            .gdesc-inner { font-size: 0.75rem; }
-            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
-            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
-            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
-            </style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -233,7 +231,7 @@
       
     </form>
     <div class="md-search__output">
-      <div class="md-search__scrollwrap" data-md-scrollfix>
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
             Initialisation de la recherche
@@ -655,6 +653,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#et-si-je-nai-pas-envie-dutiliser-tous-ces-dictionnaires" class="md-nav__link">
+    <span class="md-ellipsis">
+      Et si je n'ai pas envie d'utiliser tous ces dictionnaires?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#configurer-yomitan" class="md-nav__link">
     <span class="md-ellipsis">
       Configurer Yomitan
@@ -911,6 +918,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#et-si-je-nai-pas-envie-dutiliser-tous-ces-dictionnaires" class="md-nav__link">
+    <span class="md-ellipsis">
+      Et si je n'ai pas envie d'utiliser tous ces dictionnaires?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#configurer-yomitan" class="md-nav__link">
     <span class="md-ellipsis">
       Configurer Yomitan
@@ -1022,7 +1038,7 @@
 <h6 id="yomichan-forvo-server-et-local-audio-server-for-yomichan"><a href="https://Ankiweb.net/shared/info/580654285">Yomichan Forvo Server</a> et <a href="https://Ankiweb.net/shared/info/1045800357">Local Audio Server for Yomichan</a></h6>
 <p>Finalement, Yomichan Forvo Server et Local Audio Server for Yomichan sont utilisés pour rajouter une base de donnée audio de <a href="https://forvo.com/">Forvo</a> à Yomitan localement sur votre machine, vous donnant accès instantanément à des fichiers audio qui fixent plusieurs erreurs avec les fichiers originaux de Yomitan (provenant généralement de JapanesePod101, qui a quelques erreurs.) Suivez simplement les étapes écrites sur <a href="https://github.com/themoeway/local-audio-yomichan">cette page</a> pour avoir une installation fonctionnelle.</p>
 <figure>
-<p><a class="glightbox" href="../../img/Anki_addons.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="add-ons" src="../../img/Anki_addons.png" width="800" /></a>
+<p><a class="glightbox" href="../../img/Anki_addons.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="add-ons" src="../../img/Anki_addons.png" width="800" /></a>
     <figcaption>Les plugins que j'utilise</figcaption></p>
 </figure>
 <h4 id="activer-fsrs">Activer FSRS</h4>
@@ -1049,54 +1065,53 @@
 <h4 id="ajouter-des-dictionnaires">Ajouter des dictionnaires</h4>
 <p>Yomitan requiert des dictionnaires externes pour fonctionner. Pour installer ces dictionnaires, aller à <code>Dictionaries &gt; Configure installed and enabled dictionaries... &gt; Import</code>. <strong>Notez que pour l'instant, tous les dictionnaires sont soit en anglais, soit en japonais.</strong></p>
 <figure>
-<p><a class="glightbox" href="../../img/dictionaries.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Dictionaries" src="../../img/dictionaries.jpg" width="500" /></a>
+<p><a class="glightbox" href="../../img/dictionaries.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Dictionaries" src="../../img/dictionaries.jpg" width="500" /></a>
     <figcaption>Importer des dictionnaires dans Yomitan</figcaption></p>
 </figure>
 <p>Les dictionnaires vont prendre un peu de temps à être importés, c'est normal.</p>
 <p><center><b>Installez les dictionnaires dans l'ordre qu'ils sont donnés!</b></center></p>
-<p>Nous allons utiliser les dictionnaires suivants</p>
+<p>Nous allons utiliser les dictionnaires suivants:</p>
 <h5 id="dictionnaires-japonais-anglais">Dictionnaires Japonais-Anglais</h5>
 <p>Nous allons utiliser trois dictionaires japonais-anglais. Le premier est un dictionnaire standard qui a plusieurs formes, synonymes, antonymes ainsi que des phrases d'exemple. Le deuxième a des exemple pour différentes définitions pour un même mot ainsi que des phrases d'exemple. Le troisième a des noms propres japonais.</p>
 <h6 id="jitendex-ou-jmdict-examples"><a href="https://github.com/stephenmk/Jitendex/releases/latest">Jitendex</a> ou <a href="https://github.com/themoeway/jmdict-yomitan/releases/latest">JMdict (examples)</a></h6>
 <p>JMdict est un dictionnaire J-E développé par StephenMK(https://github.com/stephenmk). Jitendex est la continuation de ce projet et vise à supporter des types de format autre que juste Yomitan. Certains utilisateurs préfèrent l'apparence du premier dictionaire. Je vous suggère de télécharger les deux, d'essayer les deux et de regarder celui que vous préférez. Vous trouverez une comparaison directe <a href="https://github.com/stephenmk/Jitendex#example-4-multiple-search-results">ici</a>.</p>
-<h6 id="_1"><a href="https://drive.google.com/file/d/1kNHidqUpxx_veAIp2pZZjW7h2uCtMKnU/view?usp=drive_link">斎藤和英大</a></h6>
-<p>Un dictionnaire J-E fort utile qui a beaucoup d'exemples différents du mot utilisés dans plusieurs expressions et contextes.</p>
 <h6 id="jmnedict"><a href="https://github.com/themoeway/jmdict-yomitan/releases/tag/2024-01-14">JMnedict</a></h6>
 <p>Un dictionaire de nom japonais aussi créé par <a href="https://github.com/stephenmk">StephenMK</a>. Puisque les noms japonais tendent à avoir plusieurs lectures de kanji, ce dictionnaire est fortement recommandé.</p>
 <p><strong>Il pourrait être intéressant pour les personnes n'ayant pas un niveau d'anglais très élévé d'installer <a href="https://drive.google.com/file/d/1-5E3NBjOVtPKYvq1ZBpcfwAfSbGDqms8/view">cette traduction automatique de JMdict</a>. Bien que loin d'être parfaite, couplé à Jitendex elle peut être très utile à des étudiants français du japonais. N'oubliez pas de l'activer dans l'écran des dictionnaires dans Yomitan.</strong></p>
 <h5 id="dictionnaires-de-grammaire">Dictionnaires de grammaire</h5>
-<p>Ces dictionnaires nous aident à discerner et comprendre différents points de grammaire.</p>
+<p>Ce dictionnaire nous aide à discerner et comprendre différents points de grammaire.</p>
 <h6 id="dictionary-of-japanese-grammar"><a href="https://drive.google.com/file/d/1DRFhsmAr6wVs1SG9MRNvgkEvs6Yrpgig/view?usp=drive_link">Dictionary of Japanese Grammar</a></h6>
-<h6 id="_2"><a href="https://drive.google.com/file/d/1RW9R3vNxMbHRkQhfgPj6V0U8z3PXNwDh/view?usp=drive_link">日本語教師</a></h6>
+<p>Basé sur la série des <a href="https://bookclub.japantimes.co.jp/en/book/b309630.html">Dictionary of Japanese Grammar</a>.</p>
 <h5 id="dictionnaires-japonais-japonais">Dictionnaires Japonais-Japonais</h5>
 <p>Ces dictionnaires sont monolangues, c'est à dire Japonais-Japonais.</p>
 <h6 id="8th-ed"><a href="https://drive.google.com/file/d/169tv6bKqqGuv8Y5Wj9f8SpP3IGxYZUKD/view?usp=drive_link">三省堂 8th Ed</a></h6>
-<h6 id="8th-ed_1"><a href="https://drive.google.com/file/d/1M9qlt0hKVwyiyM7rqRPfi3nB_HTj2dOO/view?usp=drive_link">新明解 8th Ed</a></h6>
+<p>Mon dictionnaire J-J préféré, en particulier pour les débutants. Il a de très bonnes définitions qui ne sont pas trop longues.</p>
+<h6 id="_1"><a href="https://drive.google.com/file/d/1Mmr7IIy9CWv9YlCezrOE7JK-7PBV_CyI/view?usp=drive_link">デジタル大辞泉</a></h6>
+<p>Un autre très bon dictionnaire monolangue, mon deuxième préféré. Il a une bonne couverture.</p>
 <h6 id="4th-ed"><a href="https://drive.google.com/file/d/12t4MxKOVa79m5Q2RNwDYY-ZUzfG-b69A/view?usp=drive_link">大辞林 4th Ed</a></h6>
-<h6 id="11th-ed"><a href="https://drive.google.com/file/d/1x-lQ5lSVcyH_Nnh_NZyRVpkINg2Ez-PB/view?usp=drive_link">旺文社 11th Ed</a></h6>
-<h6 id="_3"><a href="https://drive.google.com/file/d/1Mmr7IIy9CWv9YlCezrOE7JK-7PBV_CyI/view?usp=drive_link">デジタル大辞泉</a></h6>
-<h6 id="2nd-ed"><a href="https://drive.google.com/file/d/1touXH6uNsq41bYGU1xnB_lTFfrynerBU/view?usp=drive_link">明鏡 2nd Ed</a></h6>
+<p>Je n'aime pas particulièrement ce dictionnaire, mais il a une très bonne couverture, en d'autres termes il aura souvent des définitions pour des mots qui n'apparaîtront pas dans les deux autres dictionnaires.</p>
 <h5 id="dictionnaires-specialises">Dictionnaires spécialisés</h5>
 <p>Ces dictionnaires sont aussi Japonais-Japonais mais ils se concentrent sur un sujet particulier comme des expressions communes, des différences entre mots semblables, du japonais classique ou des dialectes.</p>
-<h6 id="_4"><a href="https://drive.google.com/file/d/1fVeyyYButz0W85UUVowAzff6kRm3Pebm/view?usp=drive_link">使い方の分かる</a></h6>
-<h6 id="v2"><a href="https://drive.google.com/file/d/1Szy4XWC6KEa2w7rVyjuJqxXuOfEnsjpr/view?usp=drive_link">実用日本語表現v2</a></h6>
-<h6 id="weblio"><a href="https://drive.google.com/file/d/1Y1Q9j5JN5NPonVOG9DYfCvB4PREPQAQQ/view?usp=drive_link">Weblio古語辞典</a></h6>
-<h6 id="_5"><a href="https://drive.google.com/file/d/1K8FTlJ8c-sNtTpk6RDiW0VRp5_vZnk6j/view?usp=drive_link">全国方言辞典</a></h6>
-<h6 id="_6"><a href="https://www.mediafire.com/file/ltnvo3f5ipmr289/%E6%BC%A2%E5%AD%97%E3%83%9A%E3%83%87%E3%82%A3%E3%82%A2%E5%90%8C%E8%A8%93%E7%95%B0%E7%BE%A9.zip/file">漢字ペディア同訓異義</a></h6>
+<h6 id="_2"><a href="https://www.mediafire.com/file/ltnvo3f5ipmr289/%E6%BC%A2%E5%AD%97%E3%83%9A%E3%83%87%E3%82%A3%E3%82%A2%E5%90%8C%E8%A8%93%E7%95%B0%E7%BE%A9.zip/file">漢字ペディア同訓異義</a></h6>
+<p>Un dictionnaire qui vous aidera à différencier les multiples versions d'un même mot écrit avec différents kanji, par exemple 見る vs. 観る vs. 診る.</p>
 <h6 id="pixiv-light"><a href="https://github.com/MarvNC/yomichan-dictionaries/raw/master/dl/%5BMonolingual%5D%20PixivLight.zip">Pixiv Light</a></h6>
+<p>La version light du <a href="https://dic.pixiv.net/">dictionnaire Pixiv</a> qui est très utile pour lire différents médias japonais, car il aura le nom des différents personnages de ce que vous lirez, généralement.</p>
+<h6 id="v2"><a href="https://drive.google.com/file/d/1Szy4XWC6KEa2w7rVyjuJqxXuOfEnsjpr/view?usp=drive_link">実用日本語表現v2</a></h6>
+<p>Un dictionnaire d'expressions communes, généralement très utile.</p>
+<h6 id="weblio"><a href="https://drive.google.com/file/d/1Y1Q9j5JN5NPonVOG9DYfCvB4PREPQAQQ/view?usp=drive_link">Weblio古語辞典</a></h6>
+<p>Dictionnaire de japonais classique. Facultatif.</p>
+<h6 id="_3"><a href="https://drive.google.com/file/d/1K8FTlJ8c-sNtTpk6RDiW0VRp5_vZnk6j/view?usp=drive_link">全国方言辞典</a></h6>
+<p>Dictionnaire de dialectes. Facultatif.</p>
 <h5 id="dictionnaires-de-kanji">Dictionnaires de kanji</h5>
 <p>Ces dictionnaires vont nous aider à comprendre les kanji, en nous donnant des noms communément associés à un kanji en particulier, leur tracé ainsi que d'autres statistiques.</p>
-<h6 id="kanjidic"><a href="https://github.com/themoeway/jmdict-yomitan/releases/latest">Kanjidic</a></h6>
-<h6 id="jpdb-kanji"><a href="https://drive.google.com/file/d/1B28KizH99U-1mOP1FAYP6fUbq0mPs81a/view?usp=drive_link">JPDB Kanji</a></h6>
 <h6 id="kanji-jitenon"><a href="https://drive.google.com/file/d/1TZmvC6WcUOpvjCLt-NkdhCvEXVcvyF4I/view">Kanji Jitenon</a></h6>
-<h6 id="wiktionary"><a href="https://drive.google.com/file/d/1pSl3Hxa-K0Lg_usHiutvHxikalWzT3oZ/view?usp=drive_link">Wiktionary</a></h6>
+<p>De <a href="https://kanji.jitenon.jp/">Kanji Jitenon</a>, un site très utile pour les kanji.</p>
 <h5 id="dictionnaires-daccent-chromatique">Dictionnaires d'accent chromatique</h5>
 <p>Ces dictionnaires nous donnent des informations sur l'accent chromatique des mots.</p>
-<h6 id="v2_1"><a href="https://drive.google.com/file/d/1lypBucHQJGNeTAOgEiR2he799iyOBiFl/view?usp=drive_link">アクセント辞典v2</a></h6>
 <h6 id="nhk2016"><a href="https://drive.google.com/file/d/1UZl02OwY3n2D1FSvmq7Bwf59GwAaxMW0/view?usp=drive_link">NHK2016</a></h6>
+<p>Du livre <a href="https://www.nhk.or.jp/bunken/accent/index.html">NHK2016</a> qui discute de l'accent chromatique de nombreux mots ainsi que de règles générales sur l'accent.</p>
 <h5 id="dictionnaires-de-frequence">Dictionnaires de fréquence</h5>
-<p>Finalement, ces dictionnaires nous donne des informations sur la fréquence de divers mots. Cela nous sera utile pour classifier nos nouveaux mots par fréquence.</p>
-<h6 id="wikipedia-kanji-frequency"><a href="https://github.com/MarvNC/yomichan-dictionaries/raw/master/dl/%5BKanji%20Frequency%5D%20Wikipedia.zip">Wikipedia Kanji Frequency</a></h6>
+<p>Finalement, ces dictionnaires nous donne des informations sur la fréquence de divers mots. Cela nous sera utile pour classifier nos nouveaux mots par fréquence. Je vous recommande de tous les utiliser car ils vous permettront d'avoir une fréquence plus diversifiée pour la classification, mais si vous décidez d'en prendre qu'un seul, prenez JPDB.</p>
 <h6 id="jpdb-frequency"><a href="https://drive.google.com/file/d/1gvyZwIT-Iy8xIzlxtDEOfXE6snGfNQ_P/view?usp=drive_link">JPDB Frequency</a></h6>
 <h6 id="narou-frequency"><a href="https://drive.google.com/file/d/1dg2ZpecHgnUukHewyE5jtQkQnONCLl_Q/view?usp=drive_link">Narou Frequency</a></h6>
 <h6 id="novels-frequency"><a href="https://drive.google.com/file/d/1aCV0hPUA7F7-xCzNrvUAPc9maEptp-0W/view?usp=drive_link">Novels Frequency</a></h6>
@@ -1108,6 +1123,16 @@
 <h6 id="innocent-ranked"><a href="https://drive.google.com/file/d/1vnhmBH8t_8CdIJrOXJYtqZ5wjUCFh5KB/view?usp=drive_link">Innocent Ranked</a></h6>
 <h5 id="autres-dictionnaires-possibles">Autres dictionnaires possibles</h5>
 <p>Ces dictionnaires ci-dessus seront ceux que nous allons utiliser, mais il existe bien d'autres dictionnaires intéressants que vous pouvez voir <a href="https://github.com/MarvNC/yomichan-dictionaries">ici</a>. Si vous parlez allemand, il y a notamment une <a href="https://github.com/MarvNC/yomichan-dictionaries#japanese-german">section Japonais-Allemand</a> grâce à Julian. Un autre endroit pour trouver des dictionnaires est la <a href="https://drive.google.com/drive/folders/1tTdLppnqMfVC5otPlX_cs4ixlIgjv_lH">collection de shoui</a>.</p>
+<h4 id="et-si-je-nai-pas-envie-dutiliser-tous-ces-dictionnaires">Et si je n'ai pas envie d'utiliser tous ces dictionnaires?</h4>
+<p>Certaines personnes préfèrent avoir un setup plus compact de dictionnaires. C'est compréhensible, bien que je pense avoir recommandé uniquement des dictionnaires vraiment utiles. Si vous préférez un setup <em>très</em> compact, je vous suggère d'utiliser les dictionnaires suivants:</p>
+<ul>
+<li>JMdict (ou Jitendex)</li>
+<li>JMnedict</li>
+<li>三省堂 8th Ed</li>
+<li>Kanji Jitenon</li>
+<li>NHK2016</li>
+<li>JPDB Frequency</li>
+</ul>
 <h4 id="configurer-yomitan">Configurer Yomitan</h4>
 <p><strong><em>Vous pouvez tout simplement trouver mes paramètres dans le fichier <a href="https://mega.nz/file/gi9WHK4a#2fdY8GQWudDLrnWXsaj5zs9Jgcp1OUb9LGmQxBXIh-4">ici</a>. Pour l'importer, aller sous <code>Backup &gt; Import Settings</code> Je ne peux pas garantir que le reste de l'installation fonctionne si vous ne n'importer pas ce fichier, car plusieurs choses importantes dépendent des paramètres dans Yomitan, notamment la portion de minage de ce guide.</em></strong> </p>
 <p>Comme je l'ai dit précédemment, je vous suggère de prendre un peu de temps pour lire le manuel d'usage et voir comment Yomitan fonctionne par vous-même. Ceci fait, vous pourrez simpler annuler le message qui vient chaque fois que vous ouvrez votre navigateur web en enlevant <code>Show usage guide on startup</code> dans le menu de paramètres de Yomitan (pressez sur la roue dentée) sous <code>General</code>. Voici quelques autres options que vous pouvez changer si vous le désirez.</p>
@@ -1119,9 +1144,9 @@
 <p>Vous pouvez ajuster le volume audio si c'est trop fort pour vous. Vous pouvez aussi décider d'ajouter le son automatique qui lancera directement l'audio lié à n'importe quel mot que vous scannez. C'est utile pour les dictionnaires japonais-japonais, mais je n'utilise personnellement pas cett eoption. Je vous suggère sincèrement d'installer un serveur local pour Yomitan en suivant <a href="https://github.com/themoeway/local-audio-yomichan">ce guide</a> si vous ne l'avez pas déjà fait.</p>
 <h4 id="checklist-pour-yomitan">Checklist pour Yomitan</h4>
 <ol>
-<li><a href="https://addons.mozilla.org/en-US/firefox/addon/yomitan/">Installer Yomitan dans Firefox</a> ou <a href="https://chromewebstore.google.com/detail/yomitan/likgccmbimhjbgkjambclfkhldnlhbnn">Chrome</a>.</li>
-<li><a href="./#adding-dictionaries">Ajouter les dictionnaires</a>.</li>
-<li><a href="./#configuring-yomichan">Importer mes préférences</a>.</li>
+<li><a href="./#installer-yomitan">Installer Yomitan</a> pour <a href="https://addons.mozilla.org/en-US/firefox/addon/yomitan/">Firefox</a> ou <a href="https://chromewebstore.google.com/detail/yomitan/likgccmbimhjbgkjambclfkhldnlhbnn">Chrome</a>.</li>
+<li><a href="./#ajouter-des-dictionnaires">Ajouter les dictionnaires</a>.</li>
+<li><a href="./#configurer-yomitan">Importer mes préférences</a>.</li>
 </ol>
 <hr />
 <p>Vous avez Anki et Yomitan qui fonctionnent parfaitement et vous avez terminé Kaishi 1.5k ou vous avez déjà commencé à lire ? Installer un <a href="../mining/">deck de minage</a>.</p>
@@ -1132,6 +1157,27 @@
 
 
 
+  
+    
+  
+  
+
+
+  <aside class="md-source-file">
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Dernière mise à jour">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">7 août 2024</span>
+  </span>
+
+    
+    
+    
+    
+  </aside>
 
 
   
@@ -1208,11 +1254,13 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["header.autohide", "toc.follow", "navigation.tabs", "navigation.footer"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["header.autohide", "toc.follow", "navigation.tabs", "navigation.footer"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      <script src="../../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
       
     
-  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>
