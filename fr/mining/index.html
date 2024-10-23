@@ -737,6 +737,30 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#configuration-pour-jeux-videos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuration pour jeux vidéos
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Configuration pour jeux vidéos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#agent" class="md-nav__link">
+    <span class="md-ellipsis">
+      Agent
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1015,6 +1039,30 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#configuration-pour-jeux-videos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuration pour jeux vidéos
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Configuration pour jeux vidéos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#agent" class="md-nav__link">
+    <span class="md-ellipsis">
+      Agent
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1222,6 +1270,91 @@
     <figcaption>Exemple de minage manga avec mokuro</figcaption></p>
 </figure>
 <p>Vous pouvez maintenant utiliser Yomitan pour miner le mot. Pour avancer dans le manga, vous pouvez utiliser les flèches directionnelles gauche et droite. Une fois que vous avez miné un mot, vous pouvez utiliser <a href="./#sharex">ShareX</a> pour sélectionner et découper un panel du manga et l'ajouter à votre mot. J'utilise <code>Shift+Alt+S</code> pour découper le panel. Une fois ceci fait, votre carte Anki devrait avoir le panel dans le champ <code>Picture</code>, pour peu que vous utilisez mes paramètres.</p>
+<h3 id="configuration-pour-jeux-videos">Configuration pour jeux vidéos</h3>
+<h4 id="agent">Agent</h4>
+<p><strong>À TRADUIRE...</strong></p>
+<p><a href="https://github.com/0xDC00/agent">Agent</a> allows you to hook games that other text hookers have trouble with. Examples include:</p>
+<ul>
+<li>Hogwarts Legacy</li>
+<li>FINAL FANTASY VIII Remastered</li>
+<li>Steins;Gate</li>
+<li>Emulated games on the Nintendo Switch, PS Vita, etc.</li>
+<li>Otome games that were only released on consoles</li>
+</ul>
+<p>...and more!</p>
+<p>Its downside is that <strong>someone must create a script for the game</strong> for Agent to text hook it; but on the other hand, <strong>the hook will be near-flawless</strong>. Unlike with Textractor, you won't have to hunt for viable hooks or mess around with extensions and regex.</p>
+<p>As such, <strong>it's recommended to first check if the game can be text hooked with Agent</strong> before using other texthookers such as Textractor.</p>
+<p>There are multiple places to view the list of available Agent scripts:</p>
+<ul>
+<li><a href="https://github.com/0xDC00/scripts">Agent Scripts GitHub Repository</a></li>
+<li>This is where every script can be seen. Instead of using your browser's search function or <code>Ctrl + F</code>, you should use GitHub's search bar for reliable results.</li>
+<li><a href="https://docs.google.com/spreadsheets/d/12uXtBA-GdrZmx3wns4T2vLdP_KlP0QE0dCda4DHDo80/edit?gid=0#gid=0">KanjiEater's Agent Scripts Catalog</a></li>
+<li>Contains scraped images for supported games</li>
+<li>Might be missing some recently supported games, or assign wrong images to games</li>
+<li><a href="https://docs.google.com/spreadsheets/d/18A_vh8yn3ArsPyqyimJBqsaqcyiseA5aDd6EcNNp92k/edit?usp=sharing">Otome Games List</a></li>
+<li>Made specifically for supported otome games</li>
+<li>Contains high resolution images and opening movies</li>
+<li>Does not include all otome games</li>
+</ul>
+<h5 id="how-to-use-agent">How To Use Agent</h5>
+<p>Upon launching Agent, click on the <code>Settings</code> button at the top. There are some settings that you probably want to change.</p>
+<ol>
+<li>Disable <code>Machine Translate</code></li>
+<li>Ensure <code>Realms</code> is disabled</li>
+<li>If you're planning to use exSTATic or any texthooker page that supports websockets, enable <code>WebSocketServer</code> and disable <code>Clipboard</code></li>
+</ol>
+<p>The settings menu should look something like this after the changes:</p>
+<figure>
+<p><a class="glightbox" href="../../img/agent-settings.avif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Agent's settings menu" src="../../img/agent-settings.avif" /></a>
+    <figcaption>Agent's settings menu</figcaption></p>
+</figure>
+<p>Navigate back to the main menu so that we can download scripts into Agent. Click on the second long box then click the <code>Update scripts</code> button.</p>
+<figure>
+<p><a class="glightbox" href="../../img/agent-update-scripts.avif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Agent's update scripts" src="../../img/agent-update-scripts.avif" /></a>
+    <figcaption>Agent's update scripts</figcaption></p>
+</figure>
+<p>The next time you click on the box, you should see a dropdown list of scripts. Search for your game's title in English letters or romaji and click on the result.</p>
+<figure>
+<p><a class="glightbox" href="../../img/agent-search-title.avif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Searching for a game with its title" src="../../img/agent-search-title.avif" /></a>
+    <figcaption>Searching for a game with its title</figcaption></p>
+</figure>
+<p>Next, click and drag the target button towards the game's window.</p>
+<figure>
+<p><a class="glightbox" href="../../img/agent-targeting-process.avif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Agent's targeting process" src="../../img/agent-targeting-process.avif" /></a>
+    <figcaption>Agent's targeting process</figcaption></p>
+</figure>
+<p>Finally, click on the <code>Attach</code> button and play through the game. Text should appear in Agent's black console.</p>
+<p><strong>If you are using Agent on emulators, you must attach <em>before</em> launching the actual game! Otherwise, Agent won't be able to hook properly.</strong></p>
+<figure>
+<p><a class="glightbox" href="../../img/agent-hooked-game.avif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Extracted text showing up in Agent's console" src="../../img/agent-hooked-game.avif" /></a>
+    <figcaption>A hooked game with Agent</figcaption></p>
+</figure>
+<p>In Agent's console, some scripts tell you what version is needed, or from which source the game needs to be from. Trying to hook a game that has a different version or source from what scriptmaker intended can sometimes result in erroneous or empty output.</p>
+<figure>
+<p><a class="glightbox" href="../../img/agent-version.avif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Console output with version medata" src="../../img/agent-version.avif" /></a>
+    <figcaption>Console output with version metadata</figcaption></p>
+</figure>
+<p>Did you get any weird errors? Check out the <a href="https://0xdc00.github.io/docs/troubleshooting/?platform=emulators">official Agent docs</a> to see methods for fixing the errors, and if you still can't fix them, try asking in the <a href="https://discord.gg/sWeFsmJYJc">Agent Discord</a>.</p>
+<h5 id="compatible-emulators">Compatible Emulators</h5>
+<p>Make sure to check out <a href="https://github.com/koukdw/emulators/releases">this link</a> to see which emulator versions are compatible. If you find that Agent does not output text, it's possible that your emulator's version is too new. The versions that are compatible may change in the future.</p>
+<h5 id="nintendo-switch-emulators">Nintendo Switch Emulators</h5>
+<p>The only Nintendo Switch emulators you should be looking at for Agent compatibility are:</p>
+<ul>
+<li><a href="https://mega.nz/folder/fLAi3Y7Z#k2sFQXH_QqbKX8Pl11eD5A">Ryujinx</a><ul>
+<li>Recommended over Sudachi because of its greater accuracy and library of supported games</li>
+<li>Needs to be specifically version <code>1.1.1340</code></li>
+</ul>
+</li>
+<li><a href="https://sudachiemu.com/">Sudachi</a><ul>
+<li>Has potentially better performance than Ryujinx</li>
+<li>Any version will work</li>
+<li>Download link will not be provided due to legal reasons, you'll need to search for it yourself</li>
+</ul>
+</li>
+</ul>
+<h5 id="creating-agent-scripts">Creating Agent Scripts</h5>
+<p>Can't find a script for your game? Try making it yourself! Scripts for simple games like visual novels might only need basic programming and little, or nonexistent, reverse engineering skills. On the other hand, complex games will require programming intuition, a decent amount of reverse engineering knowledge, and a good chunk of your week.</p>
+<p>If you're interested, head into the <a href="https://discord.gg/sWeFsmJYJc">Agent Discord</a> for tutorials and information regarding the script-making process.</p>
 <hr />
 <p>Vous êtes maintenant prêt(e) à miner du contenu japonais ! N'hésitez pas à visiter la page de <a href="../recs/">recommandations</a> pour voir quoi miner.</p>
 
@@ -1244,7 +1377,7 @@
     <span class="md-icon" title="Dernière mise à jour">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">20 octobre 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">23 octobre 2024</span>
   </span>
 
     
